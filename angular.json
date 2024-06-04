@@ -144,7 +144,7 @@
           "builder": "@angular-devkit/build-angular:server",
           "options": {
             "outputPath": "dist-mobile/server",
-            "main": "server.ts",
+            "main": "server.webpack.ts",
             "tsConfig": "tsconfig.server.json",
             "sourceMap": false,
             "optimization": false
